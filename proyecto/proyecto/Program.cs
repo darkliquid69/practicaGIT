@@ -18,7 +18,7 @@ namespace proyecto
         {
             Console.WriteLine("hola mundo...");
         }
-        public void funcion_leo()
+        public static void funcion_leo()
         {
             Console.WriteLine("Holaaa, esta es la funcion de leo");
         }
