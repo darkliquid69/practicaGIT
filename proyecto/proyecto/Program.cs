@@ -13,5 +13,6 @@ namespace proyecto
         }
 	public void funcion_leo(){
 	}
+		Console.WriteLine("Holaaa, esta es la funcion de leo");
     }
 }
