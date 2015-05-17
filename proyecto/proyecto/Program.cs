@@ -10,8 +10,15 @@ namespace proyecto
     {
         static void Main(string[] args)
         {
+            funcion_salvi();
         }
-	public void funcion_leo(){
-	}
+        public void funcion_leo()
+        {
+        }
+
+        public static void funcion_salvi()
+        {
+            Console.WriteLine("hola mundo...");
+        }
     }
 }
