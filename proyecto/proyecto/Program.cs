@@ -12,13 +12,14 @@ namespace proyecto
         {
             funcion_salvi();
         }
-        public void funcion_leo()
-        {
-        }
 
         public static void funcion_salvi()
         {
             Console.WriteLine("hola mundo...");
+        }
+        public void funcion_leo()
+        {
+            Console.WriteLine("Holaaa, esta es la funcion de leo");
         }
     }
 }
