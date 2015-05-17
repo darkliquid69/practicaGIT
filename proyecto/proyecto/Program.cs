@@ -11,5 +11,7 @@ namespace proyecto
         static void Main(string[] args)
         {
         }
+	public void funcion_leo(){
+	}
     }
 }
