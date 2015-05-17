@@ -27,7 +27,10 @@ namespace proyecto
             for(int i=0; i<100; i++){
             	Console.WriteLine("Estoy Trabajando..." + (i+1) + "%");
             }
+        }
 
+        public static void superfeatureLeo(){
+        	// TODO ***
         }
     }
 }
