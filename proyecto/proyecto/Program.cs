@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// Version 1.0
 namespace proyecto
 {
     public class Program
@@ -23,10 +25,9 @@ namespace proyecto
         {
             int cont = 0;
             Console.WriteLine("Holaaa, esta es la funcion de leo");
-            while (cont == 10)
-            {
-                Console.WriteLine("hola");
-                cont++;
+
+            for(int i=0; i<100; i++){
+            	Console.WriteLine("Estoy Trabajando..." + (i+1) + "%");
             }
         }
     }
