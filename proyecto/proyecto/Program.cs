@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace proyecto
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            
             funcion_salvi();
             funcion_leo();
         }
@@ -20,7 +21,13 @@ namespace proyecto
         }
         public static void funcion_leo()
         {
+            int cont = 0;
             Console.WriteLine("Holaaa, esta es la funcion de leo");
+            while (cont == 10)
+            {
+                Console.WriteLine("hola");
+                cont++;
+            }
         }
     }
 }
