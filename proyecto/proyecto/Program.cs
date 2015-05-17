@@ -11,6 +11,7 @@ namespace proyecto
         static void Main(string[] args)
         {
             funcion_salvi();
+            funcion_leo();
         }
 
         public static void funcion_salvi()
